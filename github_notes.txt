@@ -1,0 +1,112 @@
+Date : 23/01/2026
+Day : Friday
+
+Topics : I will share the Git Hub Notes
+
+# Difference between Git & Git Hub
+
+# Git : 
+==>1. It is a version control system.
+==>2. It is a tool that helps to track changes in code 
+
+==>3. Feature : 
+        > Popular
+        > Open - Source
+        > Fast & Scalable
+
+==>4. Purpose : 
+        > To track the History and Collaborate.
+
+
+# Git Hub :
+==>1. It is a website that allow developer to store & manage their code using git.
+
+Q. How we can check git version?
+$ git --version
+$ git -v
+
+Q. What is the use of clear command?
+==> To clear all previous work
+$ clear
+
+Q. How we can go current working directory?
+$ pwd
+
+# Git Configuration :
+==> Git configuration means we can tell to git in which account we want change.
+
+==> For User Name :
+$ git config --global user.name "Enter your user name"
+
+# For Example :
+$ git config --global user.name "Omkar Work"
+
+==> For Email
+$ git config --global user.email "Enter your Email Id"
+
+# For Example :
+$ git config --global user.email "omkarraskar2206@gmail.com"
+
+==> To view Configuration list
+$ git config --list
+
+# Clone & Status 
+
+# Clone :
+      > To create duplicate.
+      > Clonning a repository on your local machine.
+      > It means download the another developer projects on your system.
+
+$ git clone < url of repository >
+
+# For Example :
+$ git clone https://github.com/omkarraskar22/My_work.git
+
+# Status :
+       > To display the status of your code.
+       > It means it show the file/code is save or not.
+
+$ git status 
+
+# Types of Status :
+     >1. Untracked
+     >2. Modified 
+     >3. Staged
+     >4. Unmodified
+
+# Explain In each types :
+
+1. Untracked : 
+        > It is a new file that git does not yet track.
+
+2. Modified :
+        > In this file user can make change.
+        > present file is change.
+
+3. Staged :
+        > Staged means file is ready to commit.
+
+4. Unmodified :
+        > The file is unchangable.
+
+# Add or Commit :
+
+# Add :
+==> Adds new or unchanged file in your working directory to the git stagging area.
+
+$ git add <file name>   //Single File Add
+
+$ git add .            // Miltiple File Add 
+
+
+# Commit :
+==> It is the record of changed.
+==> We can send a message with commit.
+
+$ git commit -m "here we can write What is in this file"
+
+
+# Push :
+==> We can add all our work on gitub.
+
+$ git push origin main
